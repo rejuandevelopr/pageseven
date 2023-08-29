@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Incident Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+        .oscreen_one{
+            background-image: url('https://i.ibb.co/cYdsCWT/image-5.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+        }
+
+        .zone_main{
+            margin-left: 10px;
+            margin-right: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            overflow: hidden;
+        }
+        
+        .zonehead_one{
+            background-color: rgba(255, 199, 0, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_one{
+            background-color: rgba(255, 199, 0, 1);
+            padding: 5px;
+            color: white;
+        }
+
+
+        .zonehead_two{
+            background-color: rgba(80, 205, 137, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_two{
+            background-color: rgba(80, 205, 137, 1);
+            padding: 5px;
+            color: white;
+        }
+
+        .zonehead_three{
+            background-color: rgba(80, 205, 137, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_three{
+            background-color: rgba(80, 205, 137, 1);
+            padding: 5px;
+            color: white;
+        }
+
+        .zonehead_four{
+            background-color: rgba(241, 65, 108, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_four{
+            background-color: rgba(241, 65, 108, 1);
+            padding: 5px;
+            color: white;
+        }
+
+        .zonehead_five{
+            background-color: rgba(241, 65, 108, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_five{
+            background-color: rgba(241, 65, 108, 1);
+            padding: 5px;
+            color: white;
+        }
+
+        .zonehead_six{
+            background-color: rgba(255, 199, 0, 1);
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        .zonecontent_six{
+            background-color: rgba(255, 199, 0, 1);
+            padding: 5px;
+            color: white;
+        }
+
+
+        @media screen and (max-width:768px) {
+            .zonecontent_one{
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .zonecontent_two{
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .zonecontent_three{
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    
+
+    <section class="oscreen_one">    
+
+        <div class="zone_main">
+
+            <div class="row gy-2">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4 text-center">
+                            <div class="zonehead_one">
+                                Zone 1
+                            </div>
+                            <div class="zonecontent_one">
+                                747 Alarm
+                            </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                            <div class="zonehead_two">
+                                Zone 2
+                            </div>
+                            <div class="zonecontent_two">
+                                12 Alarm
+                            </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                            <div class="zonehead_three">
+                                Zone 3
+                            </div>
+                            <div class="zonecontent_three">
+                                100 Alarm
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4 text-center">
+                            <div class="zonehead_four">
+                                Zone 4
+                            </div>
+                            <div class="zonecontent_four">
+                                1236 Alarm
+                            </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                            <div class="zonehead_five">
+                                Zone 5
+                            </div>
+                            <div class="zonecontent_five">
+                                6345 Alarm
+                            </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                            <div class="zonehead_six">
+                                Zone 6
+                            </div>
+                            <div class="zonecontent_six">
+                                345 Alarm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+           
+
+        </div>
+           
+    </section>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
